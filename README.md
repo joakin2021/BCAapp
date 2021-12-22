@@ -1,7 +1,7 @@
 # BCAapp
 
-#       Oracle ADF: Introducción a 
-Business Components 
+#       Oracle ADF: Introducción a Business Components
+ 
 
 
 

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="bc.entities.AppModule">
+      <AppModuleConfig name="AppModuleLocal" ApplicationName="bc.entities.AppModule" DeployPlatform="LOCAL" JDBCName="Tareas" jbo.project="bc.BC">
+         <Security AppModuleJndiName="bc.entities.AppModule"/>
+      </AppModuleConfig>
+      <AppModuleConfig name="AppModuleShared" ApplicationName="bc.entities.AppModule" DeployPlatform="LOCAL" JDBCName="Tareas" jbo.project="bc.BC">
+         <AM-Pooling jbo.ampool.maxpoolsize="1" jbo.ampool.isuseexclusive="false"/>
+         <Security AppModuleJndiName="bc.entities.AppModule"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>

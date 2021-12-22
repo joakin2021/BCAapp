@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="bc.entities.AppModule">
+      <AppModuleConfig name="17DD99130BD" IsLazyLoadingTrue="true" BC4JConfigName="AppModuleLocal" java.naming.factory.initial="oracle.jbo.common.JboInitialContextFactory" JDBCName="Tareas" jbo.project="bc.BC" ApplicationName="bc.entities.AppModule" DeployPlatform="LOCAL">
+         <Database jbo.SQLBuilder="Oracle" jbo.TypeMapEntries="Oracle"/>
+         <Security AppModuleJndiName="bc.entities.AppModule"/>
+         <Tester FullProxyInterfaceName="bc.entities.common.AppModule"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+   <AppModuleConfigBag ApplicationName="bc.app.AppModule">
+      <AppModuleConfig name="17DE27BB36D" jbo.project="bc.BC" JDBCName="Tareas" IsLazyLoadingTrue="true" ApplicationName="bc.app.AppModule" DeployPlatform="LOCAL" java.naming.factory.initial="oracle.jbo.common.JboInitialContextFactory" BC4JConfigName="AppModuleLocal">
+         <Database jbo.TypeMapEntries="Oracle" jbo.SQLBuilder="Oracle"/>
+         <Security AppModuleJndiName="bc.app.AppModule"/>
+         <Tester FullProxyInterfaceName="bc.app.common.AppModule"/>
+         <Custom LastUsedConfiguration="AppModuleLocal"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>

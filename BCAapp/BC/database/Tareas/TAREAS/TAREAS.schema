@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<schema xmlns="http://xmlns.oracle.com/jdeveloper/1111/offlinedb">
+  <ID class="oracle.javatools.db.IdentifierBasedID">
+    <identifier class="java.lang.String">f16c799a-1c79-4bf6-b7b3-084f5b9ee2f3</identifier>
+  </ID>
+  <name>TAREAS</name>
+</schema>
